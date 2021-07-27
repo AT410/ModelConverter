@@ -5,7 +5,13 @@ VisualStudioVersion = 16.0.30611.23
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Converter", "Converter.vcxproj", "{4EC6A4C2-923A-4207-A3A1-678DC3DDF7B5}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "PmxConverter", "..\Libs\PmxConverter\PmxConverter.vcxitems", "{9A8D7E5B-271E-4172-89BA-3985D575B689}"
+EndProject
 Global
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		..\Libs\PmxConverter\PmxConverter.vcxitems*{4ec6a4c2-923a-4207-a3a1-678dc3ddf7b5}*SharedItemsImports = 4
+		..\Libs\PmxConverter\PmxConverter.vcxitems*{9a8d7e5b-271e-4172-89ba-3985d575b689}*SharedItemsImports = 9
+	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
 		Debug|x86 = Debug|x86
